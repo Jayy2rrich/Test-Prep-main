@@ -115,26 +115,25 @@ func combineTogether(_ number1: Int, by number2: Int) -> Int
     return sum
 }
 /*: 6) Write a function named min2 that takes two Int values, a and b, and returns the smallest one. Use _ to ignore the external parameter names for both a and b. */
-func 
-
-
-
-
-
-
+func min2(_ a: Int, by b: Int)
+{
+    if a > b
+    {
+        print("The \(a) number is larger")
+    }
+    else
+    {
+        print("The \(b) number is larger")
+    }
+}
 /*:
 7) Write a function that takes an Int and returns it’s last digit. Name the function lastDigit. Use _ to ignore the external parameter name.
 
 */
-
-
-
-
-
-
-
-
-
+func lastDigit(_ digit:Int) -> Int
+{
+    
+}
 /*: ## Exit Ticket
 
 Write a function that takes two integers (hours, minutes), converts them to seconds, and adds them.
